@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block about %}
+<ul class="collection">
+{%for contact in contacts%}
+    <li class="collection-item">{{contact}}</li>
+{%endfor%}
+</ul>
+{% endblock about %}

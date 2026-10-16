@@ -1,0 +1,18 @@
+Django -> MVT
+django restframework -> REST API
+
+FastAPI 
+Flask -> MVT
+
+# install django
+python -m pip install django 
+
+# start new project
+django-admin startproject <project_name>
+
+# start new application
+py manage.py startapp <app_name>
+django-admin startapp <app_name>
+
+# run server
+py manage.py runserver
